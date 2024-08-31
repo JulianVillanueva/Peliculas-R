@@ -1,0 +1,27 @@
+/* src/styles/navbar.css */
+
+.custom-navbar {
+    background-color: #000 !important; 
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-navbar .navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-navbar .navbar-brand img:hover {
+    transform: scale(1.1);
+  }
+  
+  .custom-navbar .nav-link-custom {
+    font-size: 1.1rem;
+    color: #fff !important; 
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .custom-navbar .nav-link-custom:hover {
+    color: #f8c146 !important;
+  }
+  

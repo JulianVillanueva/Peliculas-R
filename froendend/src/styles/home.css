@@ -1,0 +1,30 @@
+/* src/App.css */
+
+.card-custom {
+    background-color: #333;
+    color: white;
+    border: 1px solid #444;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title-custom {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .card-img-custom {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-body-custom {
+    padding: 15px;
+  }
+  

@@ -1,0 +1,34 @@
+
+
+.pelicula-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pelicula-imagen {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .pelicula-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    border: none;
+  }
+  
+  .pelicula-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .pelicula-descripcion {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
